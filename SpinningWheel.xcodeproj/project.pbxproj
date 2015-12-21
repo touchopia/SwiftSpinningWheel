@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E66CAD61C1DDA4A004C2A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E66CAD51C1DDA4A004C2A98 /* AppDelegate.swift */; };
+		5E66CADB1C1DDA4A004C2A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E66CAD91C1DDA4A004C2A98 /* Main.storyboard */; };
+		5E66CADD1C1DDA4A004C2A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E66CADC1C1DDA4A004C2A98 /* Assets.xcassets */; };
+		5E66CAE01C1DDA4A004C2A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E66CADE1C1DDA4A004C2A98 /* LaunchScreen.storyboard */; };
+		5E66CAF51C1DDA77004C2A98 /* Merriweather-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E66CAE91C1DDA77004C2A98 /* Merriweather-Black.otf */; };
+		5E66CAF61C1DDA77004C2A98 /* Merriweather-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E66CAEA1C1DDA77004C2A98 /* Merriweather-Bold.otf */; };
+		5E66CAF71C1DDA77004C2A98 /* Merriweather-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E66CAEB1C1DDA77004C2A98 /* Merriweather-BoldItalic.otf */; };
+		5E66CAF81C1DDA77004C2A98 /* Merriweather-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E66CAEC1C1DDA77004C2A98 /* Merriweather-HeavyItalic.otf */; };
+		5E66CAF91C1DDA77004C2A98 /* Merriweather-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E66CAED1C1DDA77004C2A98 /* Merriweather-Italic.otf */; };
+		5E66CAFA1C1DDA77004C2A98 /* Merriweather-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E66CAEE1C1DDA77004C2A98 /* Merriweather-Light.otf */; };
+		5E66CAFB1C1DDA77004C2A98 /* Merriweather-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E66CAEF1C1DDA77004C2A98 /* Merriweather-LightItalic.otf */; };
+		5E66CAFC1C1DDA77004C2A98 /* Merriweather-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E66CAF01C1DDA77004C2A98 /* Merriweather-Regular.otf */; };
+		5E66CAFD1C1DDA77004C2A98 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5E66CAF11C1DDA77004C2A98 /* SIL Open Font License.txt */; };
+		5E66CAFE1C1DDA77004C2A98 /* click.caf in Resources */ = {isa = PBXBuildFile; fileRef = 5E66CAF31C1DDA77004C2A98 /* click.caf */; };
+		5E66CAFF1C1DDA77004C2A98 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E66CAF41C1DDA77004C2A98 /* click.mp3 */; };
+		5E66CB021C1DDAA9004C2A98 /* WheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E66CB011C1DDAA9004C2A98 /* WheelViewController.swift */; };
+		5E66CB041C1DDB7B004C2A98 /* SpinWheelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E66CB031C1DDB7B004C2A98 /* SpinWheelDelegate.swift */; };
+		5E66CB061C1DDD28004C2A98 /* SpinningWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E66CB051C1DDD28004C2A98 /* SpinningWheel.swift */; };
+		5E66CB081C1DEF6E004C2A98 /* SpinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E66CB071C1DEF6E004C2A98 /* SpinImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E66CAD21C1DDA4A004C2A98 /* SpinningWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinningWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E66CAD51C1DDA4A004C2A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E66CADA1C1DDA4A004C2A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E66CADC1C1DDA4A004C2A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E66CADF1C1DDA4A004C2A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E66CAE11C1DDA4A004C2A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E66CAE91C1DDA77004C2A98 /* Merriweather-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Black.otf"; sourceTree = "<group>"; };
+		5E66CAEA1C1DDA77004C2A98 /* Merriweather-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.otf"; sourceTree = "<group>"; };
+		5E66CAEB1C1DDA77004C2A98 /* Merriweather-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BoldItalic.otf"; sourceTree = "<group>"; };
+		5E66CAEC1C1DDA77004C2A98 /* Merriweather-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-HeavyItalic.otf"; sourceTree = "<group>"; };
+		5E66CAED1C1DDA77004C2A98 /* Merriweather-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Italic.otf"; sourceTree = "<group>"; };
+		5E66CAEE1C1DDA77004C2A98 /* Merriweather-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.otf"; sourceTree = "<group>"; };
+		5E66CAEF1C1DDA77004C2A98 /* Merriweather-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-LightItalic.otf"; sourceTree = "<group>"; };
+		5E66CAF01C1DDA77004C2A98 /* Merriweather-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.otf"; sourceTree = "<group>"; };
+		5E66CAF11C1DDA77004C2A98 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		5E66CAF31C1DDA77004C2A98 /* click.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.caf; sourceTree = "<group>"; };
+		5E66CAF41C1DDA77004C2A98 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		5E66CB011C1DDAA9004C2A98 /* WheelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelViewController.swift; sourceTree = "<group>"; };
+		5E66CB031C1DDB7B004C2A98 /* SpinWheelDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinWheelDelegate.swift; sourceTree = "<group>"; };
+		5E66CB051C1DDD28004C2A98 /* SpinningWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinningWheel.swift; sourceTree = "<group>"; };
+		5E66CB071C1DEF6E004C2A98 /* SpinImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E66CACF1C1DDA4A004C2A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E66CAC91C1DDA49004C2A98 = {
+			isa = PBXGroup;
+			children = (
+				5E66CAD41C1DDA4A004C2A98 /* SpinningWheel */,
+				5E66CAD31C1DDA4A004C2A98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E66CAD31C1DDA4A004C2A98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E66CAD21C1DDA4A004C2A98 /* SpinningWheel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E66CAD41C1DDA4A004C2A98 /* SpinningWheel */ = {
+			isa = PBXGroup;
+			children = (
+				5E66CAD51C1DDA4A004C2A98 /* AppDelegate.swift */,
+				5E66CB011C1DDAA9004C2A98 /* WheelViewController.swift */,
+				5E66CB031C1DDB7B004C2A98 /* SpinWheelDelegate.swift */,
+				5E66CB051C1DDD28004C2A98 /* SpinningWheel.swift */,
+				5E66CB071C1DEF6E004C2A98 /* SpinImageView.swift */,
+				5E66CAD91C1DDA4A004C2A98 /* Main.storyboard */,
+				5E66CADC1C1DDA4A004C2A98 /* Assets.xcassets */,
+				5E66CAE71C1DDA77004C2A98 /* Resources */,
+				5E66CB001C1DDA7D004C2A98 /* Supporting Files */,
+			);
+			path = SpinningWheel;
+			sourceTree = "<group>";
+		};
+		5E66CAE71C1DDA77004C2A98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E66CAE81C1DDA77004C2A98 /* fonts */,
+				5E66CAF21C1DDA77004C2A98 /* sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5E66CAE81C1DDA77004C2A98 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5E66CAE91C1DDA77004C2A98 /* Merriweather-Black.otf */,
+				5E66CAEA1C1DDA77004C2A98 /* Merriweather-Bold.otf */,
+				5E66CAEB1C1DDA77004C2A98 /* Merriweather-BoldItalic.otf */,
+				5E66CAEC1C1DDA77004C2A98 /* Merriweather-HeavyItalic.otf */,
+				5E66CAED1C1DDA77004C2A98 /* Merriweather-Italic.otf */,
+				5E66CAEE1C1DDA77004C2A98 /* Merriweather-Light.otf */,
+				5E66CAEF1C1DDA77004C2A98 /* Merriweather-LightItalic.otf */,
+				5E66CAF01C1DDA77004C2A98 /* Merriweather-Regular.otf */,
+				5E66CAF11C1DDA77004C2A98 /* SIL Open Font License.txt */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		5E66CAF21C1DDA77004C2A98 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5E66CAF31C1DDA77004C2A98 /* click.caf */,
+				5E66CAF41C1DDA77004C2A98 /* click.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		5E66CB001C1DDA7D004C2A98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E66CADE1C1DDA4A004C2A98 /* LaunchScreen.storyboard */,
+				5E66CAE11C1DDA4A004C2A98 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E66CAD11C1DDA4A004C2A98 /* SpinningWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E66CAE41C1DDA4A004C2A98 /* Build configuration list for PBXNativeTarget "SpinningWheel" */;
+			buildPhases = (
+				5E66CACE1C1DDA4A004C2A98 /* Sources */,
+				5E66CACF1C1DDA4A004C2A98 /* Frameworks */,
+				5E66CAD01C1DDA4A004C2A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinningWheel;
+			productName = SpinningWheel;
+			productReference = 5E66CAD21C1DDA4A004C2A98 /* SpinningWheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E66CACA1C1DDA49004C2A98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Touchopia;
+				TargetAttributes = {
+					5E66CAD11C1DDA4A004C2A98 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 5E66CACD1C1DDA49004C2A98 /* Build configuration list for PBXProject "SpinningWheel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E66CAC91C1DDA49004C2A98;
+			productRefGroup = 5E66CAD31C1DDA4A004C2A98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E66CAD11C1DDA4A004C2A98 /* SpinningWheel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E66CAD01C1DDA4A004C2A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E66CAFE1C1DDA77004C2A98 /* click.caf in Resources */,
+				5E66CAF91C1DDA77004C2A98 /* Merriweather-Italic.otf in Resources */,
+				5E66CAE01C1DDA4A004C2A98 /* LaunchScreen.storyboard in Resources */,
+				5E66CAF71C1DDA77004C2A98 /* Merriweather-BoldItalic.otf in Resources */,
+				5E66CAFD1C1DDA77004C2A98 /* SIL Open Font License.txt in Resources */,
+				5E66CADD1C1DDA4A004C2A98 /* Assets.xcassets in Resources */,
+				5E66CAF81C1DDA77004C2A98 /* Merriweather-HeavyItalic.otf in Resources */,
+				5E66CAFF1C1DDA77004C2A98 /* click.mp3 in Resources */,
+				5E66CAFB1C1DDA77004C2A98 /* Merriweather-LightItalic.otf in Resources */,
+				5E66CAF61C1DDA77004C2A98 /* Merriweather-Bold.otf in Resources */,
+				5E66CAF51C1DDA77004C2A98 /* Merriweather-Black.otf in Resources */,
+				5E66CADB1C1DDA4A004C2A98 /* Main.storyboard in Resources */,
+				5E66CAFC1C1DDA77004C2A98 /* Merriweather-Regular.otf in Resources */,
+				5E66CAFA1C1DDA77004C2A98 /* Merriweather-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E66CACE1C1DDA4A004C2A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E66CB021C1DDAA9004C2A98 /* WheelViewController.swift in Sources */,
+				5E66CB081C1DEF6E004C2A98 /* SpinImageView.swift in Sources */,
+				5E66CB061C1DDD28004C2A98 /* SpinningWheel.swift in Sources */,
+				5E66CB041C1DDB7B004C2A98 /* SpinWheelDelegate.swift in Sources */,
+				5E66CAD61C1DDA4A004C2A98 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E66CAD91C1DDA4A004C2A98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E66CADA1C1DDA4A004C2A98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E66CADE1C1DDA4A004C2A98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E66CADF1C1DDA4A004C2A98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E66CAE21C1DDA4A004C2A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E66CAE31C1DDA4A004C2A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E66CAE51C1DDA4A004C2A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpinningWheel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.touchopia.SpinningWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E66CAE61C1DDA4A004C2A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpinningWheel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.touchopia.SpinningWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E66CACD1C1DDA49004C2A98 /* Build configuration list for PBXProject "SpinningWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E66CAE21C1DDA4A004C2A98 /* Debug */,
+				5E66CAE31C1DDA4A004C2A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E66CAE41C1DDA4A004C2A98 /* Build configuration list for PBXNativeTarget "SpinningWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E66CAE51C1DDA4A004C2A98 /* Debug */,
+				5E66CAE61C1DDA4A004C2A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E66CACA1C1DDA49004C2A98 /* Project object */;
+}
