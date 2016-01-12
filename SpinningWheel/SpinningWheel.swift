@@ -149,7 +149,7 @@ class SpinningWheel: UIView {
             shouldReact = delegate.spinWheelShouldBeginTouch(self)
         }
         
-        if shouldReact && (currentTouch != nil || currentTouch?.phase == UITouchPhase.Cancelled || currentTouch?.phase == UITouchPhase.Ended) {
+        if shouldReact && (currentTouch == nil || (currentTouch?.phase == UITouchPhase.Cancelled || currentTouch?.phase == UITouchPhase.Ended)) {
             currentTouch = touches.first
             angularVelocity	= 0;
             initialAngle = angle;
