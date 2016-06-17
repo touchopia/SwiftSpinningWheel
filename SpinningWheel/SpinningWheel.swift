@@ -20,7 +20,7 @@ class SpinningWheel: UIView {
     }
     
     
-    var drag: CGFloat = 0.0
+    var drag: CGFloat = 1.0
     var angularVelocity: CGFloat = 0.0
     var initialAngle: CGFloat = 0.0
     
@@ -41,8 +41,23 @@ class SpinningWheel: UIView {
         
         isSpinning = false
         lastTimerDate = nil
-        displayTimer = CADisplayLink(target: self, selector: Selector("animationTimer"))
+        displayTimer = CADisplayLink(target: self, selector: #selector(animationTimer))
         displayTimer?.addToRunLoop(NSRunLoop.mainRunLoop(), forMode: NSRunLoopCommonModes)
+    }
+    
+    func stickToSpoke() {
+        let spokeAngle:CGFloat = 0.785398
+        var idealAngle = self.angle / spokeAngle
+        let closer = self.angle % spokeAngle
+        print("angle: \(self.angle), ideal: \(idealAngle) closer: \(closer)")
+        if closer > spokeAngle/2 {
+            idealAngle += 1
+        }
+        
+        
+        
+        //when done, call stop
+        stopAnimating()
     }
     
     func stopAnimating() {
@@ -59,9 +74,9 @@ class SpinningWheel: UIView {
         if lastTimerDate == nil {
             lastTimerDate = NSDate()
         }
-        else if lastTimerDate != nil && angularVelocity == 0 {
+        else if lastTimerDate != nil && abs(angularVelocity) < 1.0 {
             lastTimerDate = NSDate()
-            self.stopAnimating()
+            self.stickToSpoke()
         }
         else {
             
@@ -71,11 +86,12 @@ class SpinningWheel: UIView {
             
                 if (angularVelocity < 0) {
                     angularVelocity += angleReduction
+                    if angularVelocity > 0 {
+                        angularVelocity = 0
+                    }
                 }
                 
-                if angularVelocity > 0 {
-                    angularVelocity = 0
-                }
+            
                 else if angularVelocity > 0 {
                     angularVelocity -= angleReduction;
                 
