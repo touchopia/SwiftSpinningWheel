@@ -114,7 +114,7 @@ class WheelViewController: UIViewController, SpinWheelDelegate {
     }
     
     func spinWheelAngleDidChange(wheel: SpinningWheel) {
-        print("moving angle to \(wheel.angle)")
+        print("moving angle to \(wheel.angle) velocity = \(wheel.angularVelocity)")
     }
     
     func spinWheelShouldBeginTouch(wheel: SpinningWheel) -> Bool {
